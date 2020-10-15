@@ -1,6 +1,6 @@
 {
   "name": "@nikic/logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A core logging wrapper",
   "main": "dist/index.js",
   "scripts": {
@@ -10,31 +10,30 @@
   "author": "Goran Nikic <goran@nikic.co>",
   "license": "ISC",
   "dependencies": {
-    "@hapi/joi": "^17.1.1",
-    "dotenv": "^8.2.0",
-    "lodash": "^4.17.15",
-    "winston": "^3.2.1",
-    "winston-transport": "^4.3.0"
+    "joi": "^17.2.1",
+    "lodash": "^4.17.20",
+    "winston": "^3.3.3",
+    "winston-transport": "^4.4.0"
   },
   "devDependencies": {
-    "@nikic/eslint-config": "latest",
-    "@babel/cli": "^7.10.1",
-    "@babel/core": "^7.10.2",
-    "@babel/node": "^7.10.1",
-    "@babel/plugin-proposal-class-properties": "^7.10.1",
-    "@babel/plugin-proposal-throw-expressions": "^7.10.1",
-    "@babel/plugin-transform-runtime": "^7.10.1",
-    "@babel/preset-env": "^7.10.2",
-    "@babel/register": "^7.10.1",
-    "@babel/runtime": "^7.10.2",
-    "@hapi/code": "^8.0.1",
-    "@hapi/lab": "^22.0.4",
+    "@babel/cli": "^7.12.0",
+    "@babel/core": "^7.12.0",
+    "@babel/node": "^7.10.5",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-throw-expressions": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.12.0",
+    "@babel/preset-env": "^7.12.0",
+    "@babel/register": "^7.12.0",
+    "@babel/runtime": "^7.12.0",
+    "@hapi/code": "^8.0.2",
+    "@hapi/lab": "^22.0.5",
+    "@nikic/eslint-config": "^2.0.2",
     "babel-eslint": "^10.1.0",
     "babel-plugin-module-resolver": "^4.0.0",
     "babel-preset-latest-node": "^4.1.0",
     "cross-env": "^7.0.2",
-    "eslint": "^7.1.0",
+    "eslint": "^7.11.0",
     "eslint-plugin-node": "^11.1.0",
-    "jest": "^26.0.1"
+    "jest": "^26.5.3"
   }
 }

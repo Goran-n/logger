@@ -114,45 +114,45 @@ var Logger = /*#__PURE__*/function () {
 
   (0, _createClass2["default"])(Logger, [{
     key: "addBetterLoggingMixins",
-    value: function addBetterLoggingMixins(log) {} // log.oldSilly = log.silly;
-    // log.oldInfo = log.info;
-    // log.oldDebug = log.debug;
-    // log.oldWarn = log.warn;
-    // log.oldError = log.error;
-    // log.genLog = ((replaceFn, ...params) => {
-    //   if (params[0]) {
-    //     const data = Object.assign({}, params[0]);
-    //
-    //     if (typeof params[0] !== 'string') {
-    //       if (params[0] instanceof Error) {
-    //         params[0] = JSON.stringify(
-    //           params[0],
-    //           Object.getOwnPropertyNames(params[0]));
-    //       } else {
-    //         params[0] = JSON.stringify(params[0]);
-    //       }
-    //     }
-    //     if (data !== '{}' && data !== '') {
-    //       replaceFn(...params);
-    //     }
-    //   }
-    // });
-    // log.silly = ((...params) => {
-    //   log.genLog(log.oldSilly, ...params);
-    // });
-    // log.info = ((...params) => {
-    //   log.genLog(log.oldInfo, ...params);
-    // });
-    // log.debug = ((...params) => {
-    //   log.genLog(log.oldDebug, ...params);
-    // });
-    // log.warn = ((...params) => {
-    //   log.genLog(log.oldWarn, ...params);
-    // });
-    // log.error = ((...params) => {
-    //   log.genLog(log.oldError, ...params);
-    // });
-    // Console and File log formatter
+    value: function addBetterLoggingMixins(log) {// log.oldSilly = log.silly;
+      // log.oldInfo = log.info;
+      // log.oldDebug = log.debug;
+      // log.oldWarn = log.warn;
+      // log.oldError = log.error;
+      // log.genLog = ((replaceFn, ...params) => {
+      //   if (params[0]) {
+      //     const data = Object.assign({}, params[0]);
+      //
+      //     if (typeof params[0] !== 'string') {
+      //       if (params[0] instanceof Error) {
+      //         params[0] = JSON.stringify(
+      //           params[0],
+      //           Object.getOwnPropertyNames(params[0]));
+      //       } else {
+      //         params[0] = JSON.stringify(params[0]);
+      //       }
+      //     }
+      //     if (data !== '{}' && data !== '') {
+      //       replaceFn(...params);
+      //     }
+      //   }
+      // });
+      // log.silly = ((...params) => {
+      //   log.genLog(log.oldSilly, ...params);
+      // });
+      // log.info = ((...params) => {
+      //   log.genLog(log.oldInfo, ...params);
+      // });
+      // log.debug = ((...params) => {
+      //   log.genLog(log.oldDebug, ...params);
+      // });
+      // log.warn = ((...params) => {
+      //   log.genLog(log.oldWarn, ...params);
+      // });
+      // log.error = ((...params) => {
+      //   log.genLog(log.oldError, ...params);
+      // });
+    } // Console and File log formatter
 
   }, {
     key: "formatter",
